@@ -1,0 +1,46 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.bak
+
+# Large or regenerated model files
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Old local archives
+archive/
+archive_old/
+archive_old_figures/
+phase3_old_analysis/
+
+# Local report drafts
+*.docx
+*.pdf
