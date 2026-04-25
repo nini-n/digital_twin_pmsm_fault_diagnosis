@@ -1,0 +1,5 @@
+True Label,Final Decision,Count
+healthy,healthy,12
+healthy,uncertain,6
+ld_mismatch,uncertain,36
+rs_drift,rs_drift,48

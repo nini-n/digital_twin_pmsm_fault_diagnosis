@@ -1,0 +1,3 @@
+Fault Type,Mean Hard Detection Rate,Mean Fault Inspect Rate,Mean Missed Rate
+ld_mismatch,0.000,1.000,0.000
+rs_drift,1.000,0.000,0.000

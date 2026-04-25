@@ -1,0 +1,4 @@
+Method,Accuracy,Macro-F1,FAR,MDR,Physics MSE,Physics Corr,λ_phys
+RF physics-guided,0.941,0.908,0.333,0.000,N/A,N/A,N/A
+Standard NN,0.941,0.908,0.333,0.000,0.524,0.342,0.000
+Physics-informed NN,0.941,0.908,0.333,0.000,0.489,0.386,0.200

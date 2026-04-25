@@ -1,0 +1,14 @@
+{
+  "features_csv": "data/features_20260301_204447.csv",
+  "runs_index": "data/runs_index_20260301_204447.csv",
+  "split_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "confidence_threshold": 0.8,
+  "conformal_alpha": 0.1,
+  "description": "Five-split robustness check using different train/calibration/test partitions."
+}

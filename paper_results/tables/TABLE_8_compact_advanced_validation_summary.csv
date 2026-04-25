@@ -1,0 +1,4 @@
+Validation,Key Result,Interpretation
+Threshold sensitivity,"Threshold 0.75: FAR=0.333, Uncertain=0.000; Threshold 0.80: FAR=0.000, Uncertain=0.412",Higher threshold removes false alarms by routing ambiguous cases to inspect.
+Unseen speed condition,"FAR=0.000, MDR=0.000, Accepted Accuracy=1.000, Safe Decision=1.000",Reliability behavior is preserved under unseen operating speed.
+Physics-informed loss,"MSE 0.524→0.489, Corr 0.342→0.386",Physics-informed loss improves residual-consistency without reducing accuracy.

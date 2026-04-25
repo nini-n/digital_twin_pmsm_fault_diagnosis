@@ -1,0 +1,53 @@
+{
+  "features_csv": "data/features_20260301_204447.csv",
+  "runs_index": "data/runs_index_20260301_204447.csv",
+  "train_omega_steps": [
+    40.0,
+    50.0
+  ],
+  "cal_omega_steps": [
+    40.0,
+    50.0
+  ],
+  "test_omega_steps": [
+    60.0
+  ],
+  "split_sizes": {
+    "train": 204,
+    "calibration": 102,
+    "test_unseen_speed": 153
+  },
+  "conformal": {
+    "alpha": 0.1,
+    "qhat": 0.24587845246752982,
+    "n_cal": 102,
+    "q_level": 0.9117647058823529
+  },
+  "coverage": 0.9411764705882353,
+  "avg_set_size": 1.0,
+  "gate_calibration": {
+    "slow_gate": {
+      "n_runs": 30,
+      "n_samples": 540000,
+      "quantile": 0.995,
+      "hysteresis_ratio": 0.6,
+      "drop_initial_seconds": 0.02,
+      "sigma_window": [
+        null,
+        null
+      ],
+      "energy_window": [
+        null,
+        null
+      ]
+    },
+    "transient_gate": {
+      "n_runs": 30,
+      "quantile": 0.99,
+      "mean_healthy": -3.200698849821018,
+      "std_healthy": 0.035465973470118976,
+      "min_healthy": -3.2526032732794823,
+      "max_healthy": -3.1392347687831608
+    }
+  }
+}

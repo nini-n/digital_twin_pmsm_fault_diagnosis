@@ -1,0 +1,12 @@
+# Core numerical and data processing
+numpy>=1.24
+pandas>=2.0
+
+# Plotting
+matplotlib>=3.7
+
+# Machine learning models and evaluation metrics
+scikit-learn>=1.3
+
+# Neural network experiment for the physics-informed loss comparison
+torch>=2.0

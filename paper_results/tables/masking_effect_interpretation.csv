@@ -1,0 +1,3 @@
+fault_type,speed_error_ratio_vs_healthy,residual_energy_ratio_vs_healthy,control_effort_ratio_vs_healthy,masking_index_residual_over_speed
+ld_mismatch,1.000001329439027,1.0032092584889913,0.9999999999999061,1.0032079247842205
+rs_drift,1.0068570240109482,5585.016256787893,1.0199130850217666,5546.98047845333

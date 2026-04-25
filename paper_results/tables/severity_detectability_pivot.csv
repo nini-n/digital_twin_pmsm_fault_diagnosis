@@ -1,0 +1,15 @@
+fault_type,severity,severity_abs,hard_detected,uncertain_inspect
+ld_mismatch,-0.2,0.2,0.0,1.0
+ld_mismatch,-0.1,0.1,0.0,1.0
+ld_mismatch,-0.05,0.05,0.0,1.0
+ld_mismatch,0.05,0.05,0.0,1.0
+ld_mismatch,0.1,0.1,0.0,1.0
+ld_mismatch,0.2,0.2,0.0,1.0
+rs_drift,0.02,0.02,1.0,0.0
+rs_drift,0.05,0.05,1.0,0.0
+rs_drift,0.08,0.08,1.0,0.0
+rs_drift,0.1,0.1,1.0,0.0
+rs_drift,0.15,0.15,1.0,0.0
+rs_drift,0.2,0.2,1.0,0.0
+rs_drift,0.3,0.3,1.0,0.0
+rs_drift,0.4,0.4,1.0,0.0

@@ -1,0 +1,15 @@
+fault_type,severity,severity_abs,decision_category,count,total,rate
+ld_mismatch,-0.2,0.2,uncertain_inspect,6,6,1.0
+ld_mismatch,-0.1,0.1,uncertain_inspect,6,6,1.0
+ld_mismatch,-0.05,0.05,uncertain_inspect,6,6,1.0
+ld_mismatch,0.05,0.05,uncertain_inspect,6,6,1.0
+ld_mismatch,0.1,0.1,uncertain_inspect,6,6,1.0
+ld_mismatch,0.2,0.2,uncertain_inspect,6,6,1.0
+rs_drift,0.02,0.02,hard_detected,6,6,1.0
+rs_drift,0.05,0.05,hard_detected,6,6,1.0
+rs_drift,0.08,0.08,hard_detected,6,6,1.0
+rs_drift,0.1,0.1,hard_detected,6,6,1.0
+rs_drift,0.15,0.15,hard_detected,6,6,1.0
+rs_drift,0.2,0.2,hard_detected,6,6,1.0
+rs_drift,0.3,0.3,hard_detected,6,6,1.0
+rs_drift,0.4,0.4,hard_detected,6,6,1.0

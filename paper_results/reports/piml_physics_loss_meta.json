@@ -1,0 +1,49 @@
+{
+  "features_csv": "data/features_20260301_204447.csv",
+  "feature_columns": [
+    "rms_r_iq_ss",
+    "maxabs_r_iq_ss",
+    "mean_r_iq_ss",
+    "std_r_iq_ss",
+    "rms_r_id_ss",
+    "maxabs_r_id_ss",
+    "mean_r_id_ss",
+    "std_r_id_ss",
+    "rms_r_om_ss",
+    "maxabs_r_om_ss",
+    "rms_r_iq_tr",
+    "maxabs_r_iq_tr",
+    "energy_r_iq_tr",
+    "fdom_r_iq_tr",
+    "fratio_r_iq_tr",
+    "rms_r_id_tr",
+    "maxabs_r_id_tr",
+    "energy_r_id_tr",
+    "fdom_r_id_tr",
+    "fratio_r_id_tr",
+    "phys_steady_current_energy",
+    "phys_steady_total_energy",
+    "phys_transient_current_energy",
+    "phys_current_axis_imbalance",
+    "phys_speed_residual_strength",
+    "phys_transient_peak_strength"
+  ],
+  "classes": [
+    "healthy",
+    "ld_mismatch",
+    "rs_drift"
+  ],
+  "split_sizes": {
+    "train": 272,
+    "calibration": 85,
+    "test": 102
+  },
+  "physics_loss": {
+    "definition": "CrossEntropy + lambda_phys * MSE(fault_probability, residual_evidence_score)",
+    "lambda_phys": 0.2,
+    "residual_evidence_score_meta": {
+      "q_low": 0.4157887543966882,
+      "q_high": 180.22999878338294
+    }
+  }
+}
