@@ -268,4 +268,4 @@ Regenerated datasets will receive new timestamped file names. To reproduce the e
 
 ## License
 
-This repository is provided for academic and research use. Add a specific license file if the project is intended for public reuse.
+This project is released under the MIT License. See the `LICENSE` file for details.
